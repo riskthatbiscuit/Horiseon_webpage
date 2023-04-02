@@ -43,7 +43,8 @@ a {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background: center/cover;
+    background-size: cover;
+    background-position: center;
 }
 
 /* CONTENT SECTION */
@@ -53,15 +54,20 @@ content {
     margin-left: 20px;
 }
 
-.content-section {
+section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     background-color: #0072bb;
 }
 
-.content-section img {
+section img {
     max-height: 200px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .float-left {
@@ -74,10 +80,6 @@ content {
     margin-left: 25px;
 }
 
-.content-section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 /* BENEFITS SECTION */
 benefits {
     float: right;    
@@ -89,16 +91,16 @@ benefits {
     background-color: #2589bd;
 }
 
-.benefit-section {
+benefit p {
     margin-bottom: 32px;
 }
 
-.benefit-section h3 {
+benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-section img {
+benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
