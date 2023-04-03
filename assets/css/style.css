@@ -1,3 +1,8 @@
+/*----CSS File for Hoiseon ----*/
+/* The below file provides the style for the Hoisoen webpage. It is broken into 5 sections, related to the sections of the webpage itself: */
+/* The sections are Page, Header, Content, Benefits & Footer */
+
+/* PAGE SECTION */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,24 +10,34 @@
 }
 
 body {
+    /* Sets the general style of the body of the page */
     background-color: #d9dcd6;
     font-size: 16px;
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-/* HEADER */
+/*---- HEADER SECTION ----*/
 header {
+    /* Sets the header padding width & background colour */
     padding: 20px;
     background-color: #2a607c;
 }
 
 h1 {
+    /* Sets display to inline, font size & font-family (different to body) */
     display: inline-block;
     font-size: 48px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+h1 .seo {
+    /* Sets the colour for specific letters in Heading as identified in company logo */
+    color: #d9dcd6;
+}
+
+/* List items in navigation bar */
 li {
+    /* Sets display to block, on the right hand side of page, sets margin limits & new font size */
     display: block;
     float: right;
     margin: 15px 20px 0 5px;
@@ -30,16 +45,13 @@ li {
 }
 
 a {
+    /* Sets the display for the linked navigation bar addresses */
     color:#fff;
     text-decoration: none;
 }
 
-.seo {
-    color: #d9dcd6;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 #image-1 {
+    /* Sets the size & background-position of the title image to be used on the page */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -47,14 +59,16 @@ a {
     background-position: center;
 }
 
-/* CONTENT SECTION */
+/*---- CONTENT SECTION ----*/
 content {
+    /* Sets the size and location of the Content section */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 section {
+    /* Set the size, location and color of the sections within content */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -62,26 +76,31 @@ section {
 }
 
 section img {
+    /* Sets the height size of the images within the content section */
     max-height: 200px;
 }
 
 section h2 {
+    /* Sets the title characteristics within content */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .float-left {
+    /* Sets the float to the left for the content sections */
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /* Sets the float to the right for the content sections */
     float: right;
     margin-left: 25px;
 }
 
-/* BENEFITS SECTION */
+/*---- BENEFITS SECTION ----*/
 benefits {
+    /* Sets the size, location and color of the Benefits section */
     float: right;    
     clear: both;    
     margin-right: 20px;
@@ -91,23 +110,27 @@ benefits {
     background-color: #2589bd;
 }
 
-benefit p {
-    margin-bottom: 32px;
-}
-
 benefit h3 {
+    /* Sets the margining at the bottom of each title within benefit */
     margin-bottom: 10px;
     text-align: center;
 }
 
 benefit img {
+    /* Sets the margining and size of the images used within benefit */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* FOOTER */
+benefit p {
+    /* Sets the margining at the bottom of each paragraph within benefit */
+    margin-bottom: 32px;
+}
+
+/*---- FOOTER SECTION ----*/
 footer {
+    /* Sets the location and size of the footer, and changes the font & color to be different to body */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -116,5 +139,6 @@ footer {
 }
 
 h4 {
+    /* Sets the font size to be used within footer */
     font-size: 20px;
 }
