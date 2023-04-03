@@ -22,3 +22,10 @@ This website was built using only HTML and CSS.
 
 ### Licences
 This website uses MIT Licence
+
+
+### Screenshot link
+[Screenshot to site](./assets/Horiseon_screenshot.png)
+
+### Link to deployed website
+[Website Link](https://riskthatbiscuit.github.io/Horiseon_webpage/)
